@@ -1,6 +1,6 @@
 #For configuring Locust script
 [locust run]
-host: https://gsm-edge-dev-api.gsm-tech-test.nikecloud.com
+host: 
 locustfile: materialorder.py
 
 #For Headless Execution
