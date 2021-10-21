@@ -1,6 +1,6 @@
 #For configuring Locust script
 [locust run]
-host: 
+host: https://jsonplaceholder.typicode.com/
 locustfile: materialorder.py
 
 #For Headless Execution
