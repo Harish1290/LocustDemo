@@ -1,0 +1,11 @@
+#For configuring Locust script
+[locust script]
+locustfile: materialorder.py
+host: https://gsm-edge-dev-api.gsm-tech-test.nikecloud.com
+
+#For configuring worker mode
+[locust worker mode]
+worker: true
+master-host: 127.0.0.1
+master-port: 5557
+

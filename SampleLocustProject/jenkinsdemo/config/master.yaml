@@ -1,0 +1,23 @@
+#For configuring Locust script
+[locust script]
+locustfile: materialorder.py
+host: https://gsm-edge-dev-api.gsm-tech-test.nikecloud.com
+
+#For configuring step Load model
+[locust master mode]
+master: true
+expect-workers: 2
+
+#For configuring step Load model
+#[locust stepload]
+#step-load: true
+#step-users: 4
+#step-time: 2
+
+#For Headless Execution
+[headless mode]
+headless: true
+users: 2
+hatch-rate: 1
+run-time: 20s
+--html: report.html
