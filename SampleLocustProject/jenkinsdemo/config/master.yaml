@@ -1,7 +1,7 @@
 #For configuring Locust script
 [locust script]
 locustfile: materialorder.py
-host: https://gsm-edge-dev-api.gsm-tech-test.nikecloud.com
+host: 
 
 #For configuring step Load model
 [locust master mode]
