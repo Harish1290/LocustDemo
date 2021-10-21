@@ -1,7 +1,7 @@
 #For configuring Locust script
 [locust script]
-locustfile: materialorder.py
-host: 
+locustfile: json.py
+host: https://jsonplaceholder.typicode.com/
 
 #For configuring worker mode
 [locust worker mode]
