@@ -3,7 +3,7 @@ import json
 class Test_1(HttpUser):
     @task
     def users(self):
-        f = open("C:/Users/vutpal/LocustProject/jenkinsdemo/data.json")
+        f = open("https://github.com/Harish1290/LocustDemo/blob/main/SampleLocustProject/jenkinsdemo/data.json")
         data = json.load(f)
         response=self.client.post("/posts",name="demo_RestAPi",json=data
     )
