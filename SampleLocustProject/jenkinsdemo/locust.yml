@@ -1,0 +1,14 @@
+#For configuring Locust script
+[locust run]
+host: https://jsonplaceholder.typicode.com/
+locustfile: json.py
+
+#For Headless Execution
+[headless mode]
+headless: true
+users: 2
+hatch-rate: 1
+run-time: 20s
+--html: report.html
+
+
